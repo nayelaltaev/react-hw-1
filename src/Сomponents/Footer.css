@@ -1,0 +1,14 @@
+.Footer-site {
+  position: absolute;
+  top: 650px;
+
+  font-family: "Oswald", san-serif;
+  border: 1px solid rgb(61, 61, 61);
+  padding-left: 50px;
+  padding-top: 20px;
+  /* margin: 5px; */
+
+  height: 70px;
+  width: 1250px;
+  background-color: green;
+}
