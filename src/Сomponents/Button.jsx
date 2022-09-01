@@ -4,7 +4,7 @@ import "./Button.css";
 function Button() {
   return (
     <>
-      <button>Click me</button>
+      <button>Shop Set</button>
     </>
   );
 }

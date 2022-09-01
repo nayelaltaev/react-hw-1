@@ -1,0 +1,229 @@
+.container {
+  z-index: 5;
+  margin-top: 150px;
+  display: block;
+  justify-content: center;
+  border: 1px solid #bababa;
+  width: 455px;
+  height: 440px;
+  position: relative;
+  left: 550px;
+  background: #316adba1;
+
+  border-radius: 8px;
+  bottom: 0;
+}
+
+.first-last {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 25px;
+  margin: 10px;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.first-last > input {
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  background: #ffffff;
+  border: 1px solid #dddfe2;
+  position: relative;
+  top: -10px;
+  left: -3px;
+  width: 200px;
+}
+
+.reg-email > input {
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 10px;
+  background: #ffffff;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  width: 410px;
+}
+
+.reg-password > input {
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 10px;
+  background: #ffffff;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  width: 410px;
+}
+
+.button {
+  display: inline-block;
+  height: 36px;
+  font-family: "Poppins";
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 195px;
+  vertical-align: middle;
+  position: relative;
+  left: 120px;
+  top: -5px;
+  background-color: #131313;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fbe8d3;
+  font-size: 18px;
+  font-weight: 400;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 32px;
+  text-shadow: none;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: normal;
+}
+
+.line {
+  height: 100px;
+}
+.line img {
+  width: 100%;
+  position: relative;
+  top: -500px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: block;
+    justify-content: center;
+    border: 1px solid #bababa;
+    margin-top: 20px;
+    width: 435px;
+    height: 440px;
+    position: relative;
+    left: 170px;
+    background: #283c63;
+    border-radius: 8px;
+    bottom: 0;
+  }
+
+  .first-last {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 25px;
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .first-last > input {
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    background: #ffffff;
+    border: 1px solid #dddfe2;
+    position: relative;
+    top: -10px;
+    left: -3px;
+    width: 200px;
+  }
+
+  .reg-email > input {
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px;
+    background: #ffffff;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    width: 410px;
+  }
+
+  .reg-password > input {
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px;
+    background: #ffffff;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    width: 410px;
+  }
+
+  .custom {
+    margin: 0px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 110px;
+    font-size: 17px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-family: "Poppins";
+    color: #ffffff;
+  }
+
+  .button {
+    display: inline-block;
+    height: 36px;
+    font-family: "Poppins";
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 195px;
+    vertical-align: middle;
+    position: relative;
+    left: 120px;
+    top: -5px;
+    background-color: #93908f;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fbe8d3;
+    font-size: 18px;
+    font-weight: 400;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: normal;
+  }
+
+  .line {
+    height: 100px;
+  }
+  .line img {
+    width: 100%;
+    position: relative;
+    top: -500px;
+  }
+}

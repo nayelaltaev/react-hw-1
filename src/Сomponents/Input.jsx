@@ -4,7 +4,7 @@ import "./Input.css";
 function Input() {
   return (
     <div>
-      <input type="text" />
+      <input className="home-input" type="text" placeholder="   whatcha need bro?" />
     </div>
   );
 }

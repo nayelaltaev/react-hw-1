@@ -1,0 +1,67 @@
+* {
+  font-family: "Bellota Text", cursive;
+}
+
+.img1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.block {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+
+.Medit-Img {
+  position: relative;
+  width: 100%;
+  height: 759px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-2-page {
+  width: auto;
+  height: 90px;
+  background-color: rgb(98, 101, 104);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.third-pic {
+  width: 100%;
+  height: 750px;
+}
+
+.about-bc {
+  position: absolute;
+  background-color: rgb(107, 107, 107);
+  width: 100%;
+  height: 2000px;
+  z-index: -1;
+}
+
+.about-header {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: 100px;
+  background-color: rgb(40, 45, 178);
+  top: 0px;
+  bottom: 200px;
+}
+
+.about {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 160px;
+  width: 1200px;
+  height: 1800px;
+  margin-bottom: 200px;
+  color: black;
+}

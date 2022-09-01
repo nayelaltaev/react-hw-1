@@ -1,10 +1,15 @@
-input {
+.home-input {
   position: absolute;
-  top: 50px;
-  margin-left: 180px;
+  top: 20px;
+  left: 150px;
   border-radius: 25px;
-  width: 200px;
-  height: 30px;
-  border-color: blueviolet;
+  width: 250px;
+  height: 35px;
   font-size: 16px;
+  border-color: white;
+  font-family: Roboto;
+}
+
+.home-input:active {
+  border-color: blue;
 }
